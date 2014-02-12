@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>The Todo List That Forgets</title>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/css/style.css"/>
+	<script type='text/javascript'
+			src='https://cdn.firebase.com/js/client/1.0.6/firebase.js'></script>
+	<script type='text/javascript'
+			src='https://cdn.firebase.com/js/simple-login/1.2.5/firebase-simple-login.js'>
+	</script>	
+	
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/moment.min.js"></script>
+	<script src="/js/app.js"></script>
+
+</head>
+<body>
+	<div class="cards">
+		<div class="card" day="-1">
+			<h1>Yesterday</h1>
+			<textarea id='yesterday'>[ ] </textarea>
+		</div>
+		<div class="card" day="0">
+			<h1>Today</h1>
+			<textarea id='today'>[ ] </textarea>
+		</div>
+		<div class="card" day="1">
+			<h1>Tomorrow</h1>
+			<textarea id='tomorrow'>[ ] </textarea>
+		</div>
+	</div>
+
+	
+</body>
+</html>
